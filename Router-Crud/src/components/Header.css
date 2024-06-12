@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .btn:hover {
+    background-color: #0056b3;
+}
+
+.navbar-nav .btn:focus {
+    box-shadow: none;
+}
